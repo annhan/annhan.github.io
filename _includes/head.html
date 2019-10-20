@@ -4,14 +4,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="{{ site.author.name }}">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="{{ page.author }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    <!-- CSS -->
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
+    <!-- Custom styles for this template -->
+    <!-- <link href="navbar-fixed-top.css" rel="stylesheet"> -->
+
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
+
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"> -->
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> <!-- includes bootstrap via scss -->
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
 
     <!-- Icons -->
@@ -24,5 +37,10 @@
 
 
 </head>
+
+
+
+
+
 
 
