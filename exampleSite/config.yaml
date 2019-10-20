@@ -2,7 +2,7 @@
 
 baseURL: https://example.com/
 title: Hugo Book
-theme: hugo-book
+theme: book
 disableKinds: ['taxonomy', 'taxonomyTerm']
 # themesDir: ../..
 
