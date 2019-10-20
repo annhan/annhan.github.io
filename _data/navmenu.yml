@@ -1,12 +1,15 @@
 - url: /about.html
   align: navbar-right
 
-- folder: Tests
+- folder: AnNhan-navmenu.yml
   align: navbar-right
   contents:
    - url: /test_collection/collection_test1_1.html
-     name: Collection
+     name: Nhan1
    - url: /test_section/section_test1_1.html
-     name: Folders
+     name: Nhan2
    - divider: true
    - url: /docs/folder2/test2_2.html
+   - divider: true
+   - url: /docs/folder2/test2_2.html
+     name: Nhan3
