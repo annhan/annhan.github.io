@@ -16,7 +16,7 @@ $mobile-break: 700px;
 {% if site.baseurl %}
 	$base-url: {{ site.baseurl }};
 {% else %}
-	$base-url: '';
+	$base-url: '1px';
 {% endif %}
 
 @import "mixins";
