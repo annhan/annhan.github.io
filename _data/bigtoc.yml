@@ -25,7 +25,7 @@
 - folder: Project
   contents:
    - url: /docs/folder2/test2_3.html
-   name: SIM800C
+     name: SIM800C
 - url: /test_collection/collection_test1_2.html
 
 
