@@ -3,28 +3,13 @@ layout: default
 ---
 <div class="post">
 
-<div class="page-header">
-  <h1>{{ page.title }}</h1>
-	<div class="pull-right"><a href="https://twitter.com/share" class="twitter-share-button" data-via="hamishwillee">Tweet</a> <div class="g-plusone" data-size="medium" data-annotation="bubble" data-width="120"></div></div>
-  <p><small>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</small></p>
-  {% if page.tags != empty %} <div class="tag-icon-image"> {% for tag in page.tags %} <small><a href="{{ site.baseurl }}/tags#{{ tag }}&tag={{ tag | uri_escape }}">{{ tag }}</a></small> {% endfor %}</div>{% endif %}
-
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
 
   <article class="post-content">
-	{% if page.tags contains 'draft' %}<div class="message">DRAFT - This blog post is <b>under construction</b>.</div> {% endif %}
-  {{ content }}
+    {{ content }}
   </article>
 
-  <!-- add commenting -->
-  {% if page.comments != false %}
-    {% include commenting_scripts.html %}
-  {% endif %}
-  <!-- scripts for social sharing - actual share added above -->
-  {% include social_sharing_scripts.html %}
-
 </div>
-
-
-
-
-
