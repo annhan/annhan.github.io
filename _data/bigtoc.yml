@@ -1,4 +1,4 @@
-- folder: Folder1
+- folder: Altium
   contents:
    - url: /docs/test1_1.html
    - url: /docs/test1_2.html
@@ -12,17 +12,22 @@
         contents:
          - url: /docs/folder3/test3_1.html
 
-- folder: Folder2
+- folder: STM32
   contents:
    - url: /docs/folder2/test2_3.html
 
 - url: /docs/folder3/test3_2.html
-  name: Some random name
+  name: ESP32
 
 - url: /test_collection/collection_test1_1.html
-  name: Collection
+  name: C/C++
 
+- folder: Project
+  contents:
+   - url: /docs/folder2/test2_3.html
+   name: SIM800C
 - url: /test_collection/collection_test1_2.html
+
 
 - url: /test_section/section_test1_1.html
   name: Section11
