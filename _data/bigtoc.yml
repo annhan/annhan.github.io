@@ -1,16 +1,23 @@
 - folder: Altium
   contents:
-   - url: /docs/test1_1.html
-   - url: /docs/test1_2.html
-     name: Toc-set name
-   - folder: Folder2
+   - url: /docs/Altium/phimtat.html
+     name: Phím tắt Altium.
+   - url: /docs/Altium/SheetSymbol.html
+     name: Schematic theo SheetSymbol
+   - url: /docs/Altium/AutoVia.html
+     name: Đặt Via tự động.
+   - url: /docs/Altium/PhuXanhVia.html
+     name: Phủ xanh cả Via.
+   - url: /docs/Altium/PhuThiec.html
+     name: Phủ Thiếc.
+   - url: /docs/Altium/XoayLinhKien.html
+     name: Xoay Linh Kiện 45 độ.
+   - url: /docs/Altium/Ghep3DPCB.html
+     name: Ghép 3D nhiều PCB.
+   - folder: Highspeed
      contents:
-      - url: /docs/folder2/test2_2.html
-        name: Toc-set name 2
-      - url: /docs/folder2/test2_1.html
-      - folder: Folder3
-        contents:
-         - url: /docs/folder3/test3_1.html
+      - url: /docs/Altium/Highspeed/X_Signal.html
+        name: X Signal
 
 - folder: STM32
   contents:
