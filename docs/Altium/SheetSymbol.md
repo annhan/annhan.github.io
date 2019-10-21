@@ -3,14 +3,14 @@ layout: default
 title: 
 ---
 
-<h1 style="background-color:DodgerBlue;">Vấn đề </h1>   
+<h1 style="background-color:LightGray;">Vấn đề </h1>   
   
 Đôi khi một file bản vẽ quá lớn sẽ gây khó khăn cho chúng ta trong việc vẽ schematic.  
 Có những khối lặp đi lặp lại nhiều lần trong schematic->gây tốn thời gian trong vẽ. 
 
 Để giải quyết vấn đề ấy chúng ta cần chia schematic theo các khối riêng biệt, nhằm dễ bao quát, sữa chữa..  
 
-<h1 style="background-color:DodgerBlue;">Hướng dẫn. </h1>   
+<h1 style="background-color:LightGray;">Hướng dẫn. </h1>   
 
 - Tạo file schematic.  
 - Vào Place->Sheet Symbol để tạo 1 khối có chức năng riêng.  
