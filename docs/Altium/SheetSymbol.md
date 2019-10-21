@@ -22,5 +22,7 @@ Có những khối lặp đi lặp lại nhiều lần trong schematic->gây t�
 - PCB: chỉ cần vẽ PCB cho 1 khối rồi update sang các khối còn lại.   
 - Để update ta vào Design->Room->Copy room format sau đó chọn khối đã vẽ và chọn khối cần update.  
 
-<img src="/docs/Picture/Altium/sheetsynbol1.png" alt="Flowers in Chania" >
+<img src="/docs/Picture/Altium/sheetsynbol1.png" alt="Flowers in Chania" >  
+  
+  
 <img src="/docs/Picture/Altium/sheetsynbol2.png" alt="Flowers in Chania" >
