@@ -3,7 +3,7 @@ layout: default
 title: Phím tắt
 ---
 
-##PCB  
+<h1>PCB </h1>   
 ```
 Ctrl + M: Đo kích thước   
 2 Xem mạch in ở dạng 2D.  
@@ -18,7 +18,7 @@ Shift + S: Chỉ cho phép hiện 1 lớp đang chọn (các lớp còn lại đ
 Shift + Space: Thay đổi các chế độ đường dây (Tự do - Theo luật - Vuông 90 độ - Cong)   
 Q (Ctrl + Q): Thay đổi đơn vị (mm <-> mil) 
 ```
-##SCH  
+<h1>SCH  </h1>  
 ```
 - X: Quay linh kiện theo trục X ( đối xứng qua trục X ).  
 - Y:  Quay linh kiện theo trục Y ( đối xứng qua trục Y ).  
