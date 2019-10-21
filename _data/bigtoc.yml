@@ -14,10 +14,16 @@
      name: Xoay Linh Kiện 45 độ.
    - url: /docs/Altium/Ghep3DPCB.html
      name: Ghép 3D nhiều PCB.
+   - url: /docs/Altium/design_insight.html
+     name: Design insight.
    - folder: Highspeed
      contents:
       - url: /docs/Altium/Highspeed/X_Signal.html
         name: X Signal
+      - url: /docs/Altium/Highspeed/EDGE_RATE.html
+        name: EDGE RATE
+      - url: /docs/Altium/Highspeed/LengthMatchingTurning.html
+        name:  Length Matching,Length Turning
 
 - folder: STM32
   contents:
