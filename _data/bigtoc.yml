@@ -27,7 +27,14 @@
 
 - folder: STM32
   contents:
-   - url: /docs/folder2/test2_3.html
+   - folder: IDF
+     contents:
+      - url: /docs/STM32/IDF.html
+        name: Cài Đặt IDF.
+   - folder: Arduino
+     contents:
+      - url: /docs/STM32/Arduino_package.html
+        name: Cài Đặt package.
 
 - folder: ESP32
   contents:
@@ -35,8 +42,6 @@
      contents:
       - url: /docs/ESP32/IDF.html
         name: Cài Đặt IDF.
-      - url: /docs/ESP32/XoayLinhKien.html
-        name: Xoay Linh Kiện 45 độ.
    - folder: Arduino
      contents:
       - url: /docs/ESP32/Arduino_package.html
