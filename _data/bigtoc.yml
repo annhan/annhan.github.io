@@ -31,6 +31,16 @@
 
 - folder: ESP32
   contents:
+   - folder: IDF
+   contents:
+     - url: /docs/ESP32/IDF.html
+       name: Cài Đặt IDF.
+     - url: /docs/ESP32/XoayLinhKien.html
+       name: Xoay Linh Kiện 45 độ.
+   - folder: Arduino
+   contents:
+     - url: /docs/ESP32/Arduino_package.html
+       name: Cài Đặt package.
 
 - folder: C/C++
   contents:
