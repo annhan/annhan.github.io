@@ -27,10 +27,10 @@
 
 - folder: STM32
   contents:
-   - folder: IDF
+   - folder: True Studio
      contents:
       - url: /docs/STM32/IDF.html
-        name: Cài Đặt IDF.
+        name: Cài Đặt STM32CubeMX.
    - folder: Arduino
      contents:
       - url: /docs/STM32/Arduino_package.html
