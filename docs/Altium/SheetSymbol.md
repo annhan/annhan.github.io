@@ -23,6 +23,6 @@ Có những khối lặp đi lặp lại nhiều lần trong schematic->gây t�
 - Để update ta vào Design->Room->Copy room format sau đó chọn khối đã vẽ và chọn khối cần update.  
 
 <img src="/docs/Picture/Altium/sheetsynbol1.png" alt="Flowers in Chania" >  
-  
-  
+<br>  
+<br>  
 <img src="/docs/Picture/Altium/sheetsynbol2.png" alt="Flowers in Chania" >
