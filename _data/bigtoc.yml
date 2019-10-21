@@ -27,6 +27,8 @@
 
 - folder: STM32
   contents:
+   - url: /docs/STM32/PinVBAT.html
+     name: Dùng chân VBAT.
    - folder: True Studio
      contents:
       - url: /docs/STM32/IDF.html
