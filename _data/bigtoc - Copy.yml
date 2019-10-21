@@ -23,8 +23,8 @@
   contents:
    - url: /docs/folder2/test2_3.html
 
-- folder: ESP32
-  contents:
+- url: /docs/folder3/test3_2.html
+  name: ESP32
 
 - folder: C/C++
   contents:
@@ -45,4 +45,13 @@
   contents:
    - url: /docs/folder2/test2_3.html
      name: SIM800C
+- url: /test_collection/collection_test1_2.html
 
+
+- url: /test_section/section_test1_1.html
+  name: Section11
+
+- url: /test_section/section_test1_2.html
+  name: Section12
+
+- url: /usingtheme/breadcrumbs.html
