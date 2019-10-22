@@ -68,4 +68,9 @@
   contents:
    - url: /docs/folder2/test2_3.html
      name: SIM800C
+- folder: mWork
+  contents:
+   - url: /docs/mWork/HMI/HMI19264.html
+     name: HMI 19264
+
 
