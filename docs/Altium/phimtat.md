@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: 
 ---
@@ -20,6 +20,7 @@ title:
 ```
 <h1 style="background-color:LightGray;">SCH  </h1>  
 ```
+- Shift + R : bật tắt chế độ bảo vệ khi vẽ mạch ( không cho các đường chồng chéo nhau).
 - X: Quay linh kiện theo trục X ( đối xứng qua trục X ).  
 - Y:  Quay linh kiện theo trục Y ( đối xứng qua trục Y ).  
 - Space: Xoay linh kiện 90 độ.  
