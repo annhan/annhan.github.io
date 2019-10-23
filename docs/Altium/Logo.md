@@ -17,3 +17,4 @@ Result Logo
 
 Nhấn Load để lấy hình ảnh làm Logo, sau đó nhấn Convert để bắt đầu quá trình chuyển đổi.
 Để hình ảnh chuyển đổi đẹp các bạn nên chuyển hình màu thành trắng đen trước khi đưa vào script.
+<img src="/docs/Picture/Altium/Logo1.png" alt="1" > 
