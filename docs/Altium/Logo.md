@@ -5,7 +5,7 @@ title:
 
 Logo được tạo là file .bmp (Các bạn có thể chuyển từ các định dạng ảnh khác sang)
 
-Tải bộ script của Altium <a href="docs/Altium/Altium-Scripts.zip" download="Altium-Scripts.zip">Tại đây.</a>.
+Tải bộ script của Altium <a href="/docs/Altium/Altium-Scripts.zip" download="Altium-Scripts.zip">Tại đây.</a>.
 
 Chạy Script ``PCB Logo Creator`` tìm trong thư mục cài đặt của altium ```Scripts\Delphiscript Scripts\PCB\PCB Logo Creator```
 
