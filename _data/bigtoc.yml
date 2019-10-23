@@ -49,6 +49,17 @@
       - url: /docs/ESP32/Arduino_package.html
         name: Cài Đặt package.
 
+- folder: Raspberry
+  contents:
+   - folder: Setting
+     contents:
+      - url: /docs/Raspberry/Autostart.html
+        name: Autostart.
+   - folder: Flask
+     contents:
+      - url: /docs/Raspberry/Autostart.html
+        name: Flask - install.
+        
 - folder: C/C++
   contents:
    - url: /docs/CC++/Contro.html
