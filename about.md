@@ -2,6 +2,6 @@
 layout: default
 title: About
 ---
-
-
-annhandt09@gmail.com
+  
+  
+My email: annhandt09@gmail.com
