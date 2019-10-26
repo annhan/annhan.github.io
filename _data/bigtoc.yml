@@ -48,7 +48,7 @@
         name: Cài Đặt IDF.
    - folder: Arduino
      contents:
-      - url: /docs/ESP32/Arduino_package.html
+      - url: /docs/ESP32/Arduino/Arduino_package.html
         name: Cài Đặt package.
       - folder: FreeRTOS
         contents:
