@@ -72,6 +72,7 @@
           name: Mutex.
         - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Counting_Semaphore.html
           name: Counting_Semaphore.
+          
 - folder: Raspberry
   contents:
    - folder: Setting
