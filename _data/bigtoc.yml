@@ -57,13 +57,13 @@
         - folder: Task
           contents:
           - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Task_Parameter.html
-            name: Task_Parameter.
+            name: Task Parameter.
           - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Task_Handle.html
-            name: Task_Handle.
+            name: Task Handle.
           - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Task_Priorities.html
             name: Task_Priorities.
           - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Idle_Task_Hook.html
-            name: Idle_Task_Hook.            
+            name: Idle Task Hook.            
         - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Queue.html
           name: Queue.
         - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Semaphore.html
@@ -71,7 +71,7 @@
         - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Mutex.html
           name: Mutex.
         - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Counting_Semaphore.html
-          name: Counting_Semaphore.
+          name: Counting Semaphore.
           
 - folder: Raspberry
   contents:
