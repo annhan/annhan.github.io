@@ -48,29 +48,29 @@
         name: Cài Đặt IDF.
    - folder: Arduino
      contents:
-      - url: /docs/ESP32/Arduino/Arduino_package.html
+      - url: /docs/ESP32/Arduino/Arduinopackage.html
         name: Cài Đặt package.
       - folder: FreeRTOS
         contents:
-         - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Creater.html
+         - url: /docs/ESP32/Arduino/FreeRTOS/RTOSCreater.html
            name: Creater.
          - folder: Task
            contents:
-            - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Task_Parameter.html
+            - url: /docs/ESP32/Arduino/FreeRTOS/RTOSTaskParameter.html
               name: Task Parameter.
-            - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Task_Handle.html
+            - url: /docs/ESP32/Arduino/FreeRTOS/RTOSTaskHandle.html
               name: Task Handle.
-            - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Task_Priorities.html
+            - url: /docs/ESP32/Arduino/FreeRTOS/RTOSTaskPriorities.html
               name: Task_Priorities.
-            - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Idle_Task_Hook.html
+            - url: /docs/ESP32/Arduino/FreeRTOS/RTOSIdleTaskHook.html
               name: Idle Task Hook.            
-         - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Queue.html
+         - url: /docs/ESP32/Arduino/FreeRTOS/RTOSQueue.html
            name: Queue.
-         - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Semaphore.html
+         - url: /docs/ESP32/Arduino/FreeRTOS/RTOSSemaphore.html
            name: Semaphore.
-         - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Mutex.html
+         - url: /docs/ESP32/Arduino/FreeRTOS/RTOSMutex.html
            name: Mutex.
-         - url: /docs/ESP32/Arduino/FreeRTOS/RTOS_Counting_Semaphore.html
+         - url: /docs/ESP32/Arduino/FreeRTOS/RTOSCountingSemaphore.html
            name: Counting Semaphore.
           
 - folder: Raspberry
