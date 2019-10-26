@@ -3,9 +3,10 @@ layout: default
 title: 
 ---
 
-Counting Semaphore dùng để lưu trữ nhiều sự kiện Semaphore hơn.
-```xCountingSemaphore = xSemaphoreCreateCounting( 10, 0 );``` khai báo biến xCountingSemaphore lưu 10 dữ liệu.
-Vd: Chương trình dưới khi nhấn button tạo ra 1 ngắt. Thì ngắt này tạo biến xCountingSemaphore đến 6 lần và task ISRprocessing sẽ blink LED 3 lần theo 6 lần của biến.
+Counting Semaphore dùng để lưu trữ nhiều sự kiện Semaphore hơn.<br>
+```xCountingSemaphore = xSemaphoreCreateCounting( 10, 0 );``` khai báo biến xCountingSemaphore lưu 10 dữ liệu.<br>
+Vd: Chương trình dưới khi nhấn button tạo ra 1 ngắt. Thì ngắt này tạo biến xCountingSemaphore đến 6 lần và task ISRprocessing sẽ blink LED 3 lần theo 6 lần của biến.<br>
+<br>
 ```
 /* LED pin */
 byte ledPin = 14;

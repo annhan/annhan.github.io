@@ -1,11 +1,11 @@
----
+﻿---
 layout: default
 title: 
 ---
 
-Arduino ESP32 được build trên nền FreeRTOS và hàm mainloop là một looptask.
-Để phát huy được tính đa nhiệm và bộ nhớ RTOS thì ta cần tạo nhiệm vụ (task)
-VD: Mainloop là 1 task và additionalTask là một task.
+Arduino ESP32 được build trên nền FreeRTOS và hàm mainloop là một looptask.<br>
+Để phát huy được tính đa nhiệm và bộ nhớ RTOS thì ta cần tạo nhiệm vụ (task)<br>
+VD: Mainloop là 1 task và additionalTask là một task.<br>
   xTaskCreate(
       additionalTask,           /* Task function. */
       "additional Task",        /* name of task. */
@@ -14,8 +14,8 @@ VD: Mainloop là 1 task và additionalTask là một task.
       1,                        /* priority of the task */
       nhan_chay);                    /* Task handle to keep track of created task */
 }
-phần nhân chạy ta có thể chỉnh là 1. Vì mặt định ESP32 chạy trên nhân số 0 và để NULL thì task sẽ thực hiện trên nhân 0.
-ESP32 có 2 nhân nên có thể chạy song song.
+phần nhân chạy ta có thể chỉnh là 1. Vì mặt định ESP32 chạy trên nhân số 0 và để NULL thì task sẽ thực hiện trên nhân 0.<br>
+ESP32 có 2 nhân nên có thể chạy song song.<br>
 ```
 void setup() {
 
