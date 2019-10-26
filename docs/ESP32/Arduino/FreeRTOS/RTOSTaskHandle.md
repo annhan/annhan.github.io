@@ -2,9 +2,9 @@
 layout: default
 title: 
 ---
-Task handle là thay đổi mức độ ưu tiên hoặc delete task.
+Task handle là thay đổi mức độ ưu tiên hoặc delete task.<br>
 
-VD: Cho task 1 chạy 20 lần rồi thay đổi mức độ ưu tiên để task 1 thực hiên
+VD: Cho task 1 chạy 20 lần rồi thay đổi mức độ ưu tiên để task 1 thực hiên<br>
 ```
 /* variables to hold instances of tasks*/
 TaskHandle_t t1 = NULL;

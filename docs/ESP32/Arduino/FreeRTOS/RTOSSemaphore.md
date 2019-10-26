@@ -3,8 +3,8 @@ layout: default
 title: 
 ---
 
-Binary semaphore là biến giúp xác định trạng thái khóa hay mở.
-VD  ứng dụng cần chờ cho biến Binary semaphore unlock từ một task khác mới thực hiện.
+Binary semaphore là biến giúp xác định trạng thái khóa hay mở.<br>
+VD  ứng dụng cần chờ cho biến Binary semaphore unlock từ một task khác mới thực hiện.<br>
 
 ```
 /* LED pin */

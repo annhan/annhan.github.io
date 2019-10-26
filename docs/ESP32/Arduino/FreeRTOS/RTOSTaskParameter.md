@@ -3,19 +3,20 @@ layout: default
 title: 
 ---
 
-Chương trình khai báo 1 task.
-
+Chương trình khai báo 1 task.<br>
+```
 BaseType_t xTaskCreate( TaskFunction_t pvTaskCode,
                         const char * const pcName,
                         uint16_t usStackDepth,
                         void *pvParameters,
                         UBaseType_t uxPriority,
                         TaskHandle_t *pxCreatedTask )
-						
-void *pvParameters để truyền dữ liệu vào task.
-VD:
-Chương trình tạo task sẽ truyền dữ liệu vào task1param.
-trong task ta chỉ print datan dữ liệu truyền vào.
+```						
+<br>
+void *pvParameters để truyền dữ liệu vào task.<br>
+VD:<br>
+Chương trình tạo task sẽ truyền dữ liệu vào task1param.<br>
+trong task ta chỉ print datan dữ liệu truyền vào.<br>
 ```
 void setup() {
 

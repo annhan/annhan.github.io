@@ -3,6 +3,7 @@ layout: default
 title: 
 ---
 Mức độ ưu tiên của các task. Khi task có mức độ ưu tiên lớn hơn sẽ chiếm hết quỹ thời gian thực hiện của task có mức độ ưu tiên thấp hơn.
+<br>
 ```
 void setup() {
 

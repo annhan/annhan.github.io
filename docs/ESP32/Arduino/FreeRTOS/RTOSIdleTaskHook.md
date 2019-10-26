@@ -3,15 +3,15 @@ layout: default
 title: 
 ---
 
-Idle Task Hook Function là 1 task có mức độ ưu tiên thấp nhất (0).
-ta có thể dùng:
--Làm một số việc nền
--Đo thời gian CPU rảnh
-- Đặt mức năng lượng thấp khi không làm gì.
-Để sử dụng task này ta cần chèn
+Idle Task Hook Function là 1 task có mức độ ưu tiên thấp nhất (0).<br>
+ta có thể dùng:<br>
+-Làm một số việc nền<br>
+-Đo thời gian CPU rảnh<br>
+- Đặt mức năng lượng thấp khi không làm gì.<br>
+Để sử dụng task này ta cần chèn<br>
 "bool ```vApplicationIdleHook( void )```  và gọi ```esp_register_freertos_idle_hook(vApplicationIdleHook)```
-
-VD:
+<br>
+VD:<br>
 
 ```
 #include "esp_freertos_hooks.h"
