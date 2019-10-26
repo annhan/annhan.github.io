@@ -4,7 +4,10 @@ title:
 ---
 Các API Queue và freeRTOS nằm ở thư mục:
 
-```C:\Users\LENOVO\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.4\tools\sdk\include\freertos\freertos```<br>
+```
+Users\LENOVO\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.4\tools\sdk\include\freertos\freertos 
+```
+<br>
 
 Queue dùng để lưu trữ dữ liệu hoặc truyền dữ liệu giữa các task.<br>
 Queue có 2 dạng là message queue và mail queue, đây là 2 cơ chế được dùng để các task có thể trao đổi với nhau, sự khác biệt lớn nhất giữa 2 dạng này là message queue thì truyền dữ liệu dưới dạng đơn, còn mail queue sẽ truyền dưới dạng khối.<br>
