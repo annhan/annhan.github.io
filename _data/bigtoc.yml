@@ -107,7 +107,7 @@
 - folder: ROS
   contents:
    - url: /docs/ROS/ArduinoNode/Bai1.html
-     name: Bài 1: Thư viện arduino   
+     name: Bài 1. Thư viện arduino   
      
 - folder: Project
   contents:
