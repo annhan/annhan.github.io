@@ -119,5 +119,9 @@
      name: HMI 19264
    - url: /docs/mWork/Daikin/DaikinManual.html
      name: Daikin Manual
+- folder: CV 
+  contents:
+   - url: /docs/CV/2019.html
+     name: CV
 
 
