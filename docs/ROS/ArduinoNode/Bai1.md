@@ -7,16 +7,16 @@ title:
 lino_msgs::Velocities raw_vel_msg;
 ros::Publisher raw_vel_pub("raw_vel", &raw_vel_msg);
 ```
-lino_msgs::Velocities là kiểu dữ liệu lino_msgs la namespace
-ros::Publisher raw_vel_pub("raw_vel", &raw_vel_msg);
+lino_msgs::Velocities là kiểu dữ liệu lino_msgs la namespace<br>
+ros::Publisher raw_vel_pub("raw_vel", &raw_vel_msg);<br>
 
-Hầu hết các class do người dingf viết nhận hay gửi msg đều là class con của  ros::Msg
+Hầu hết các class do người dingf viết nhận hay gửi msg đều là class con của  ros::Msg<br>
 
 
 ```ros::Subscriber<lino_msgs::PID> pid_sub("pid", PIDCallback);``` 
-khai báo Sybscriber có data  <lino_msgs::PID> 
-Tên topic  là pid
-hàm PIDCallback
+khai báo Sybscriber có data  <lino_msgs::PID> <br>
+Tên topic  là pid<br>
+hàm PIDCallback<br>
 ```void PIDCallback(const lino_msgs::PID& pid)
 {
     motor1_pid.updateConstants(pid.p, pid.i, pid.d);
@@ -26,8 +26,8 @@ hàm PIDCallback
 
 
 ```serialize``` là hàm chuyển đổi dữ liệu truyền đi cho ros, dữ liệu truyền đi là char mà data cần truyền là uint32_t nên cần format lại để truyền và xác nhận số byte cần cho khung truyền<br>
-```deserialize``` là hàm ngược lai serialize. Phục hổi dữ liệu truyền tới (là kiều char) cho data cần nhận có 32bit
-PID():p(0),d(0),i(0){} là khai báo trong class lino_msgs::PID có 3 biến là p,d,i
+```deserialize``` là hàm ngược lai serialize. Phục hổi dữ liệu truyền tới (là kiều char) cho data cần nhận có 32bit<br>
+PID():p(0),d(0),i(0){} là khai báo trong class lino_msgs::PID có 3 biến là p,d,i<br>
 
 ```
 #ifndef _ROS_lino_msgs_PID_h
