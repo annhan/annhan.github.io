@@ -77,7 +77,9 @@
       - folder: Examples
         contents:
          - url: /docs/ESP32/Arduino/examples/1.GPIO/GPIO.html
-           name: 1.GPIO.          
+           name: 1.GPIO.
+         - url: /docs/ESP32/Arduino/examples/2.GPIO/UART.html
+           name: 2.UART Interrupt.                
 - folder: Raspberry
   contents:
    - folder: Setting
