@@ -73,10 +73,10 @@
          - url: /docs/ESP32/Arduino/GPIO.html
            name: Counting Semaphore.
       - url: /docs/ESP32/Arduino/Arduinopackage.html
-        name: GPIO.
+        name: Package.
       - folder: Examples
         contents:
-         - url: /docs/ESP32/Arduino/examples/GPIO.html
+         - url: /docs/ESP32/Arduino/examples/1.GPIO/GPIO.html
            name: 1.GPIO.          
 - folder: Raspberry
   contents:
