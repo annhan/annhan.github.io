@@ -79,7 +79,9 @@
          - url: /docs/ESP32/Arduino/examples/1.GPIO/GPIO.html
            name: 1.GPIO.
          - url: /docs/ESP32/Arduino/examples/2.UART/UART.html
-           name: 2.UART Interrupt.                
+           name: 2.UART Interrupt.
+         - url: /docs/ESP32/Arduino/examples/3.ModbusSlaver/ModbusSlaver.html
+           name: 3.Modbus Slaver.             
 - folder: Raspberry
   contents:
    - folder: Setting
