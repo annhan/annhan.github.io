@@ -10,12 +10,12 @@ Dùng Cách 3.
 
 Với Gui:
 Tạo một tệp .service mới trong thư mục systemd:
-SAO CHÉP MÃ
+
 ```
 sudo nano /lib/systemd/system/clock.service
 ```
 Nhập văn bản sau vào tài liệu:
-SAO CHÉP MÃ
+
 ```
 [Unit]
 Description=Start Clock
@@ -34,11 +34,10 @@ WantedBy=graphical.target
 ```
 
 Không cần Gui thi 
-Tạo một tệp .service mới trong thư mục systemd:
-SAO CHÉP MÃ
-```sudo nano /lib/systemd/system/blink.service```
+Tạo một tệp .service mới trong thư mục systemd:```sudo nano /lib/systemd/system/blink.service```
+
 Nhập văn bản sau vào tài liệu:
-SAO CHÉP MÃ
+
 ```
 [Unit]
 Description=Blink my LED
