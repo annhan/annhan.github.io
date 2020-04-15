@@ -6,7 +6,7 @@ title:
 Khai báo Struct
 
 VD1:
-
+```
 struct Books
 {
    char  tieude[50];
@@ -14,15 +14,18 @@ struct Books
    char  chude[100];
    int   book_id;
 };
+```
 Ta khai báo struct Books Quyeensach1; 
 
 Khi đó ta truy cập vào bằng Quyensach1.tieude...
 
 Con trỏ
 
+```
 struct Books* quyensach2;
 
 quyensach2=&quyensach1;
+```
 
 khi đó ta truy vẫn phần tử: quyensach2->tieude;
 
@@ -30,6 +33,7 @@ khi đó ta truy vẫn phần tử: quyensach2->tieude;
 
 Từ khóa typedef
 
+```
 typedef struct Books
 {
    char  tieude[50];
@@ -37,6 +41,8 @@ typedef struct Books
    char  chude[100];
    int   book_id;
 }Sach;
+```
+
 khi dùng typedef ta khai báo chỉ cần
 
 Sach Quyensach1;
@@ -46,7 +52,7 @@ truy vẫn Quyensach1.tieude;
 
 
 
-
+```
 struct sinhvien 
 {
     char MSV[20]; // ma sinh vien
@@ -57,9 +63,12 @@ struct sinhvien
         int ngay, thang, nam;
     } ns;
 };
+```
  Khai báo biến con trỏ và cấp phát bộ nhớ struct
 
+```
 struct sinhvien *CNPMK10A = (struct sinhvien*) malloc(n * sizeof(struct sinhvien)); 
+```
 
 Truy cập các phần tử struct
 
@@ -73,6 +82,8 @@ Cả 3 cách trên đều truy cập tới DTB.
 Để lấy địa chỉ ta cũng có 2 cách:
 Cách 1: &CNPMK10A[i].DTB;
 Cách 2: &(CNPMK10A+i)->diemTB
+
+
 2.
 ```
 #include <iostream>    
