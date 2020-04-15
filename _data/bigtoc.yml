@@ -90,7 +90,7 @@
         name: Autostart.
    - folder: Flask
      contents:
-      - url: /docs/Raspberry/Autostart.html
+      - url: /docs/Raspberry/installFlask.html
         name: Flask - install.
         
 - folder: C/C++
