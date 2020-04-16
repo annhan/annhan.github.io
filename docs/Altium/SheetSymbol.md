@@ -18,7 +18,8 @@ Có những khối lặp đi lặp lại nhiều lần trong schematic->gây t�
 - Để vẽ schematic của khối ta click chuột phải vào khối chọn "Sheet Symbol Action"-> Create sheet from Sheet Symbol.  
 - Khi đó altium sẽ tạo 1 file mới và ta thực hiện vẽ schematic cho khối đó.  
 - Khi có nhiều khối lặp đi lặp lại ta có thể khai báo repeat khối trong phần name REPEAT(tenkhoi,1,4) Sẽ tạo 4 khối giống nhau.  
-- Các chân bus cũng cần khao báo repeat(O,1,4) với O là chân lần lượt O1,O2,O3,O4 đã được khai báo trên BUS.  
+- Các chân bus cũng cần khao báo Repeat(O,1,4) với O là chân lần lượt O1,O2,O3,O4 đã được khai báo trên BUS.
+- Input Bus cho khối: phần name ta điền tên[0..5] là bus gốm các name ten0, ten1.. ten5.  
 - PCB: chỉ cần vẽ PCB cho 1 khối rồi update sang các khối còn lại.   
 - Để update ta vào Design->Room->Copy room format sau đó chọn khối đã vẽ và chọn khối cần update.  
 
