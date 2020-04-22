@@ -110,6 +110,8 @@
         name: Sự khác nhau giữa threading và Process.        
 - folder: C/C++
   contents:
+   - url: /docs/CC++/stackHeap.html
+     name: Vùng nhớ stack & heap. 
    - url: /docs/CC++/Contro.html
      name: Con trỏ.
    - url: /docs/CC++/Struct.html
