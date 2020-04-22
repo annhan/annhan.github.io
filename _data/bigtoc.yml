@@ -10,6 +10,8 @@
      name: Đặt Via tự động.
    - url: /docs/Altium/PhuXanhVia.html
      name: Phủ xanh cả Via.
+   - url: /docs/Altium/Teardrops.html
+     name: Teardrops.
    - url: /docs/Altium/PhuThiec.html
      name: Phủ Thiếc.
    - url: /docs/Altium/XoayLinhKien.html
