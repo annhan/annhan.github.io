@@ -90,6 +90,12 @@
      contents:
       - url: /docs/Raspberry/Autostart.html
         name: Autostart.
+      - url: /docs/Raspberry/enableSSH.html
+        name: Enable SSH (First Run).
+      - url: /docs/Raspberry/wifiSetting.html
+        name: Wifi Setting.
+      - url: /docs/Raspberry/staticIP.html
+        name: static IP.
    - folder: Flask
      contents:
       - url: /docs/Raspberry/installFlask.html
@@ -97,7 +103,9 @@
    - folder: Python
      contents:
       - url: /docs/Raspberry/Python/Bai1.html
-        name: Bài1.        
+        name: Bài1.     
+      - url: /docs/Raspberry/Python/MQTT.html
+        name: MQTT Python.        
 - folder: C/C++
   contents:
    - url: /docs/CC++/Contro.html
