@@ -94,7 +94,10 @@
      contents:
       - url: /docs/Raspberry/installFlask.html
         name: Flask - install.
-        
+   - folder: Python
+     contents:
+      - url: /docs/Raspberry/Python/Bai1.html
+        name: Bài1.        
 - folder: C/C++
   contents:
    - url: /docs/CC++/Contro.html
