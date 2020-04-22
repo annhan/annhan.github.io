@@ -28,7 +28,10 @@
         name: EDGE RATE
       - url: /docs/Altium/Highspeed/LengthMatchingTurning.html
         name:  Length Matching,Length Turning
-
+- folder: KiCad
+  contents:
+   - url: /docs/Kicad/Bai1.html
+     name: Bài 1.
 - folder: STM32
   contents:
    - url: /docs/STM32/PinVBAT.html
