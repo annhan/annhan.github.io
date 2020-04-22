@@ -105,7 +105,9 @@
       - url: /docs/Raspberry/Python/Bai1.html
         name: Bài1.     
       - url: /docs/Raspberry/Python/MQTT.html
-        name: MQTT Python.        
+        name: MQTT Python.
+      - url: /docs/Raspberry/Python/threadingProcess.html
+        name: Sự khác nhau giữa threading và Process.        
 - folder: C/C++
   contents:
    - url: /docs/CC++/Contro.html
