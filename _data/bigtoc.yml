@@ -121,7 +121,11 @@
    - url: /docs/CC++/storage-classes.html
      name: storage-classes.      
    - url: /docs/CC++/Capphatbonho.html
-     name: Cấp phát bộ nhớ.  
+     name: Cấp phát bộ nhớ. 
+   - url: /docs/CC++/stateMachine.html
+     name: State Machine.  
+   - url: /docs/CC++/MVC.html
+     name: MVC.       
      
 - folder: ROS
   contents:
