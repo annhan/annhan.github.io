@@ -125,7 +125,7 @@
    - url: /docs/CC++/stateMachine.html
      name: State Machine.  
    - url: /docs/CC++/MVC.html
-     name: MVC.       
+     name: MVC Partner.       
      
 - folder: ROS
   contents:
