@@ -114,7 +114,9 @@
    - folder: Labview On Raspberry
      contents:
       - url: /docs/Raspberry/LINX/Huongdan.html
-        name: LINX - install.        
+        name: LINX - install.   
+      - url: /docs/Raspberry/LINX/eventStruct.html
+        name: Event Struct.         
 - folder: C/C++
   contents:
    - url: /docs/CC++/stackHeap.html
