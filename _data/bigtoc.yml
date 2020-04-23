@@ -110,7 +110,11 @@
       - url: /docs/Raspberry/Python/MQTT.html
         name: MQTT Python.
       - url: /docs/Raspberry/Python/threadingProcess.html
-        name: Sự khác nhau giữa threading và Process.        
+        name: Sự khác nhau giữa threading và Process.
+   - folder: Labview On Raspberry
+     contents:
+      - url: /docs/Raspberry/LINX/Huongdan.html
+        name: LINX - install.        
 - folder: C/C++
   contents:
    - url: /docs/CC++/stackHeap.html
