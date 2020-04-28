@@ -111,6 +111,12 @@
         name: MQTT Python.
       - url: /docs/Raspberry/Python/threadingProcess.html
         name: Sự khác nhau giữa threading và Process.
+      - folder: Gui
+        contents:
+         - url: /docs/Raspberry/Python/Gui/QT.html
+           name: QT.
+         - url: /docs/Raspberry/Python/Gui/Kivy.html
+           name: Kivy.
    - folder: Labview On Raspberry
      contents:
       - url: /docs/Raspberry/LINX/Huongdan.html
