@@ -2,7 +2,7 @@ Trên raspberry có 4 cổng USB, khi mỗi lần reboot hay rút USB và cắm 
 
 Hướng dẫn này sẽ giúp fix cứng cổng USB với tên cố định, hoặc fix rõ thiết bị nào ứng với cổng USB nào.
 
-1. Tìm cổng USB ```dmesg | grep ttyUSB ``` sẽ được list USB
+1. Tìm cổng USB `dmesg | grep ttyUSB` sẽ được list USB
 ----------
 
 ```
@@ -11,10 +11,12 @@ pi@raspberrypi:~ $ dmesg | grep ttyUSB
 [4.075590] usb 1-1.3: FTDI USB Serial Device converter now attached to ttyUSB1
 ```
 
-với usb 1-1.2 là cổng số usb số 2 ứng với tên ttyUSB0, 1-1.3 là cổng usb 3 ttyUSB1
+* Với usb 1-1.2 là cổng số usb số 2 ứng với tên ttyUSB0, 1-1.3 là cổng usb 3 ttyUSB1
 
-2. Tìm thông tin của công USB ```udevadm info --name=/dev/ttyUSB0 --attribute-walk``` thay ttyUSB0 thành cổng USB muốn check thông tin.
----------
+2. Tìm thông tin của cổng USB.
+--------------
+
+ * `udevadm info --name=/dev/ttyUSB0 --attribute-walk` thay ttyUSB0 thành cổng USB muốn check thông tin.
 
 ```
 
@@ -55,9 +57,7 @@ pi@raspberrypi:~ $ udevadm info --name=/dev/ttyUSB1 --attribute-walk
 ...
 ```
 
-ta sẽ chú ý 2 phần  ```idVendor field (0403 in this case)``` và  ```idProduct field (6001 in this case) ```
-
-2 phần này ta khai báo để link thẳng thiết bị vào tên USB cố định.
+* Ta sẽ chú ý 2 phần  ```idVendor field (0403 in this case)``` và  ```idProduct field (6001 in this case) ``` 2 phần này ta khai báo để link thẳng thiết bị vào tên USB cố định.
 
 3.  Tạo file rule ```/etc/udev/rules.d/10-usb-serial.rules``` cho cổng usb
 ---------
