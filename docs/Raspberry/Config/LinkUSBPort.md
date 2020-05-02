@@ -93,7 +93,7 @@ Can dung add ```, MODE="0666"``` vao cuoi
 - Tên Driver DRIVERS=="ftdi_sio" với usb485 như hình
 ![hinh usb485](../image/usb485.png)
 
-ta có thể link thiết bị bằng
+Ta có thể link thiết bị bằng
 ```
 KERNEL=="ttyUSB*", SUBSYSTEM=="tty", \
      DRIVERS=="cp210x", SYMLINK+="USBMultiMode", MODE="0666"
@@ -106,7 +106,7 @@ KERNEL=="ttyUSB*", SUBSYSTEM=="tty", \
 ```sudo udevadm control --reload-rules && udevadm trigger```
 ```pi@raspberrypi:~ $ sudo udevadm trigger```
 
-``exit su``  thoat khoi quyen admin
+``exit su``  thoát khỏi quyền admin
 
 **5. Check**
 ---------
