@@ -15,7 +15,7 @@ pi@raspberrypi:~ $ dmesg | grep ttyUSB
 
 * Với usb 1-1.2 là cổng số usb số 2 ứng với tên ttyUSB0, 1-1.3 là cổng usb 3 ttyUSB1
 
-2. Tìm thông tin của cổng USB.
+**2. Tìm thông tin của cổng USB.**
 --------------
  * `udevadm info --name=/dev/ttyUSB0 --attribute-walk` thay ttyUSB0 thành cổng USB muốn check thông tin.
 
@@ -59,7 +59,7 @@ pi@raspberrypi:~ $ udevadm info --name=/dev/ttyUSB1 --attribute-walk
 
 * Ta sẽ chú ý 2 phần  ```idVendor field (0403 in this case)``` và  ```idProduct field (6001 in this case) ``` 2 phần này ta khai báo để link thẳng thiết bị vào tên USB cố định.
 
-3. Tạo file Udev rule.
+**3. Tạo file Udev rule.**
 ---------
 
 ``` Create a file /etc/udev/rules.d/10-usb-serial.rules```
@@ -101,14 +101,14 @@ KERNEL=="ttyUSB*", SUBSYSTEM=="tty", \
      DRIVERS=="ftdi_sio", SYMLINK+="USB485", MODE="0666"
 ```
 
-4. Load new Rule.
+**4. Load new Rule.**
 ---------
 ```sudo udevadm control --reload-rules && udevadm trigger```
 ```pi@raspberrypi:~ $ sudo udevadm trigger```
 
 ``exit su``  thoat khoi quyen admin
 
-5. Check
+**5. Check**
 ---------
 * ```pi@raspberrypi:~ $ ls -l /dev/ttyUSB*```
 
