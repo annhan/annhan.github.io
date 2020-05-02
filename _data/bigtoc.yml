@@ -99,6 +99,8 @@
         name: Wifi Setting.
       - url: /docs/Raspberry/staticIP.html
         name: static IP.
+      - url: /docs/Raspberry/Config/LinkUSBPort.html
+        name: Link cổng USB tới ttyUSBx cố định.
    - folder: Flask
      contents:
       - url: /docs/Raspberry/installFlask.html
