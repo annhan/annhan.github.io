@@ -3,6 +3,7 @@ Trên raspberry có 4 cổng USB, khi mỗi lần reboot hay rút USB và cắm 
 Hướng dẫn này sẽ giúp fix cứng cổng USB với tên cố định, hoặc fix rõ thiết bị nào ứng với cổng USB nào.
 
 1. Tìm cổng USB ```dmesg | grep ttyUSB ``` sẽ được list USB
+----------
 
 ```
 pi@raspberrypi:~ $ dmesg | grep ttyUSB 
@@ -13,6 +14,7 @@ pi@raspberrypi:~ $ dmesg | grep ttyUSB
 với usb 1-1.2 là cổng số usb số 2 ứng với tên ttyUSB0, 1-1.3 là cổng usb 3 ttyUSB1
 
 2. Tìm thông tin của công USB ```udevadm info --name=/dev/ttyUSB0 --attribute-walk``` thay ttyUSB0 thành cổng USB muốn check thông tin.
+---------
 
 ```
 
@@ -58,6 +60,7 @@ ta sẽ chú ý 2 phần  ```idVendor field (0403 in this case)``` và  ```idPro
 2 phần này ta khai báo để link thẳng thiết bị vào tên USB cố định.
 
 3.  Tạo file rule ```/etc/udev/rules.d/10-usb-serial.rules``` cho cổng usb
+---------
 
 ``` Create a file /etc/udev/rules.d/10-usb-serial.rules```
 
@@ -72,6 +75,7 @@ Có thể bỏ trường ```serial```
 
 3.2 Link với cổng USB
 
+ATTRS{devpath}=="1.1" là cổng USB số 1 trên raspberry
 ```
 SUBSYSTEM=="tty", ATTRS{devpath}=="1.1", SYMLINK+="ttyUSB1"
 SUBSYSTEM=="tty", ATTRS{devpath}=="1.2", SYMLINK+="ttyUSB2"
@@ -79,9 +83,32 @@ SUBSYSTEM=="tty", ATTRS{devpath}=="1.3", SYMLINK+="ttyUSB3"
 SUBSYSTEM=="tty", ATTRS{devpath}=="1.4", SYMLINK+="ttyUSB4"
 ```
 
+Can dung add ```, MODE="0666"``` vao cuoi
 
+3.3 Bổ Xung thêm.
+
+- Tên Driver DRIVERS=="cp210x" với USB-ttl,232,485 như hình
+![hinh usb multi](../image/usbmulti.png)
+
+- Tên Driver DRIVERS=="ftdi_sio" với usb485 như hình
+![hinh usb485](../image/usb485.png)
+
+ta có thể link thiết bị bằng
+```
+KERNEL=="ttyUSB*", SUBSYSTEM=="tty", \
+     DRIVERS=="cp210x", SYMLINK+="USBMultiMode", MODE="0666"
+KERNEL=="ttyUSB*", SUBSYSTEM=="tty", \
+     DRIVERS=="ftdi_sio", SYMLINK+="USB485", MODE="0666"
+```
 
 4. Load new Rule
+---------
+
+```sudo udevadm control --reload-rules && udevadm trigger```
 ```pi@raspberrypi:~ $ sudo udevadm trigger```
 
+``exit su``  thoat khoi quyen admin
+
+
 5. Check ```pi@raspberrypi:~ $ ls -l /dev/ttyUSB*```
+---------
