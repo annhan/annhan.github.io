@@ -4,7 +4,7 @@ Hướng dẫn này sẽ giúp fix cứng cổng USB với tên cố định, ho
 
   
 
-1. Tìm cổng USB `dmesg | grep ttyUSB` sẽ được list USB
+**1. Tìm cổng USB `dmesg | grep ttyUSB` sẽ được list USB**
 ----------
 
 ```
@@ -17,11 +17,9 @@ pi@raspberrypi:~ $ dmesg | grep ttyUSB
 
 2. Tìm thông tin của cổng USB.
 --------------
-
  * `udevadm info --name=/dev/ttyUSB0 --attribute-walk` thay ttyUSB0 thành cổng USB muốn check thông tin.
 
 ```
-
 pi@raspberrypi:~ $ udevadm info --name=/dev/ttyUSB1 --attribute-walk
 ...
  looking at parent device '/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2':
@@ -105,7 +103,6 @@ KERNEL=="ttyUSB*", SUBSYSTEM=="tty", \
 
 4. Load new Rule.
 ---------
-
 ```sudo udevadm control --reload-rules && udevadm trigger```
 ```pi@raspberrypi:~ $ sudo udevadm trigger```
 
