@@ -1,10 +1,10 @@
 Trên raspberry có 4 cổng USB, khi mỗi lần reboot hay rút USB và cắm vào sẽ dễ bị thay đổi tên ttyUSB0 hay ttyUSB1
 
 Hướng dẫn này sẽ giúp fix cứng cổng USB với tên cố định, hoặc fix rõ thiết bị nào ứng với cổng USB nào.
-<ol>
+
   
 
-<li>Tìm cổng USB `dmesg | grep ttyUSB` sẽ được list USB</li>
+1. Tìm cổng USB `dmesg | grep ttyUSB` sẽ được list USB
 ----------
 
 ```
@@ -15,7 +15,7 @@ pi@raspberrypi:~ $ dmesg | grep ttyUSB
 
 * Với usb 1-1.2 là cổng số usb số 2 ứng với tên ttyUSB0, 1-1.3 là cổng usb 3 ttyUSB1
 
-<li>Tìm thông tin của cổng USB.</li>
+2. Tìm thông tin của cổng USB.
 --------------
 
  * `udevadm info --name=/dev/ttyUSB0 --attribute-walk` thay ttyUSB0 thành cổng USB muốn check thông tin.
@@ -61,7 +61,7 @@ pi@raspberrypi:~ $ udevadm info --name=/dev/ttyUSB1 --attribute-walk
 
 * Ta sẽ chú ý 2 phần  ```idVendor field (0403 in this case)``` và  ```idProduct field (6001 in this case) ``` 2 phần này ta khai báo để link thẳng thiết bị vào tên USB cố định.
 
-<li>Tạo file Udev rule.</li>
+3. Tạo file Udev rule.
 ---------
 
 ``` Create a file /etc/udev/rules.d/10-usb-serial.rules```
@@ -103,7 +103,7 @@ KERNEL=="ttyUSB*", SUBSYSTEM=="tty", \
      DRIVERS=="ftdi_sio", SYMLINK+="USB485", MODE="0666"
 ```
 
-<li>Load new Rule</li>
+4. Load new Rule.
 ---------
 
 ```sudo udevadm control --reload-rules && udevadm trigger```
@@ -111,9 +111,7 @@ KERNEL=="ttyUSB*", SUBSYSTEM=="tty", \
 
 ``exit su``  thoat khoi quyen admin
 
-<li>Check</li>
+5. Check
 ---------
 * ```pi@raspberrypi:~ $ ls -l /dev/ttyUSB*```
 
-
-</ol>
