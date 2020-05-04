@@ -1,3 +1,8 @@
+---
+layout: default
+title: 
+---
+
 Trên raspberry có 4 cổng USB, khi mỗi lần reboot hay rút USB và cắm vào sẽ dễ bị thay đổi tên ttyUSB0 hay ttyUSB1
 
 Hướng dẫn này sẽ giúp fix cứng cổng USB với tên cố định, hoặc fix rõ thiết bị nào ứng với cổng USB nào.
