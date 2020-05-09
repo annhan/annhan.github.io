@@ -124,7 +124,13 @@
       - url: /docs/Raspberry/LINX/Huongdan.html
         name: LINX - install.   
       - url: /docs/Raspberry/LINX/eventStruct.html
-        name: Event Struct.         
+        name: Event Struct.
+      - folder: Shroot
+        contents:      
+         - url: /docs/Raspberry/LINX/ChrootAccessOutside.html
+           name: ChrootAccessOutside.   
+         - url: /docs/Raspberry/LINX/ChrootWithUSBMount.html
+           name: Connect to USB MOUNT
 - folder: C/C++
   contents:
    - url: /docs/CC++/stackHeap.html

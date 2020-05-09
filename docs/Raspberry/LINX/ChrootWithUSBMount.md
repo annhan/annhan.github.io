@@ -1,5 +1,5 @@
 
-1. Setup access function outside of the labview chroot
+1. Setup access function outside of the labview chroot [ChrootAccessOutside](ChrootAccessOutside.md)
 
 2.  Use the following code to mount the SD card in the LabVIEW chroot at the start of your program:
 
