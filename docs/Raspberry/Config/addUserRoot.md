@@ -1,3 +1,14 @@
+Config CHroot : /dev/chroot/labview chỉnh file fstab
+fstab chỉ mount lúc khởi động chương trình, trong quá trình hoạt động nếu rút ra cắm lại thì sẽ mất ổ đĩa USB.
+
+
+
+
+
+
+
+
+
 HOW
 Step 1 -Set root password
 sudo passwd root
