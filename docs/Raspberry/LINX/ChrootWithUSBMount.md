@@ -10,6 +10,6 @@
 
 NEW:
 ---------
-Vi Chay EXEC VI trong LABVIEW laf da chay trong moi truong CHROOT nen ta cos the bo qua buoc 1 vaf chi can
+Vì chạy EXEC VI trong LABVIEW là đã chạy trong môi trường root của Chroot nên ta có thể bỏ qua bước 1 và dùng lệnh trực tiesrep. Sẽ ra kết quả nhanh hơn ( 50ms thay vì 2000ms nếu dùng lệnh cũ)
 
 ```mount /dev/sd%s1 %s``` thay cho ```ssh root@localhost schroot -c lv -r -- mount /dev/sd%s1 %s```
