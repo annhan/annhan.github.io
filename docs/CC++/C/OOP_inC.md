@@ -3,6 +3,7 @@ layout: default
 title: 
 ---
 
+
 ```
 typedef struct PointTag {
     int16_t x; /* x-coordinate */
@@ -41,7 +42,7 @@ int16_t Point_dist(Point const *me, Point const *other) {
 --------
 
 ```
-    typedef struct ColoredPointTag {
+typedef struct ColoredPointTag {
     Point super; /* derives from Point */
     uint16_t color; /* 16-bit color */
 } ColoredPoint;
