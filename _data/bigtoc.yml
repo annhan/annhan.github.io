@@ -132,26 +132,30 @@
          - url: /docs/Raspberry/LINX/ChrootWithUSBMount.html
            name: Connect to USB MOUNT
 - folder: C/C++
-  contents:
-   - url: /docs/CC++/stackHeap.html
-     name: Vùng nhớ stack & heap. 
-   - url: /docs/CC++/Contro.html
-     name: Con trỏ.
-   - url: /docs/CC++/Struct.html
-     name: Struct.
-   - url: /docs/CC++/Enum.html
-     name: Enum.
-   - url: /docs/CC++/Type-casting.html
-     name: Type-casting.    
-   - url: /docs/CC++/storage-classes.html
-     name: storage-classes.      
-   - url: /docs/CC++/Capphatbonho.html
-     name: Cấp phát bộ nhớ. 
-   - url: /docs/CC++/stateMachine.html
-     name: State Machine.  
-   - url: /docs/CC++/MVC.html
-     name: MVC Partner.       
-     
+   - folder: C++
+     contents:
+      - url: /docs/CC++/stackHeap.html
+        name: Vùng nhớ stack & heap. 
+      - url: /docs/CC++/Contro.html
+        name: Con trỏ.
+      - url: /docs/CC++/Struct.html
+        name: Struct.
+      - url: /docs/CC++/Enum.html
+        name: Enum.
+      - url: /docs/CC++/Type-casting.html
+        name: Type-casting.    
+      - url: /docs/CC++/storage-classes.html
+        name: storage-classes.      
+      - url: /docs/CC++/Capphatbonho.html
+        name: Cấp phát bộ nhớ. 
+      - url: /docs/CC++/stateMachine.html
+        name: State Machine.  
+      - url: /docs/CC++/MVC.html
+        name: MVC Partner.       
+   - folder: C
+     contents:
+      - url: /docs/CC++/C/OOP_inC.html
+        name: OOP in C. 
 - folder: ROS
   contents:
    - url: /docs/ROS/ArduinoNode/Bai1.html
