@@ -152,7 +152,11 @@
       - url: /docs/CC++/stateMachine.html
         name: State Machine.  
       - url: /docs/CC++/MVC.html
-        name: MVC Partner.       
+        name: MVC Partner.      
+      - folder: Macro
+        contents:
+         - url: /docs/CC++/macro/Va_arg.html
+           name: Va ARG.        
    - folder: C
      contents:
       - url: /docs/CC++/C/OOP_inC.html

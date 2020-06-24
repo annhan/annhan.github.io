@@ -6,7 +6,7 @@ title:
 Khi ta viết thư viện, trong hàm sử lý dữ liệu hay có hàm ta sẽ để người dùng tự định nghĩa bên ngoài chương trình chính và chỉ truyền vào địa chỉ hàm để ta gọi khi cần dùng.
 
 
-```
+``` python
 #include <stdio.h>
 
 int add_two_number(int a, int b);
