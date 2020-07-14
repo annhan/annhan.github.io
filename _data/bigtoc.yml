@@ -149,6 +149,8 @@
         name: storage-classes.      
       - url: /docs/CC++/Capphatbonho.html
         name: Cấp phát bộ nhớ. 
+      - url: /docs/CC++/enumArray.html
+        name: enum Array.      
       - url: /docs/CC++/stateMachine.html
         name: State Machine.  
       - url: /docs/CC++/MVC.html
