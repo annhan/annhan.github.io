@@ -1,124 +1,98 @@
-- folder: Altium
-  contents:
-   - url: /docs/Altium/phimtat.html
-     name: Phím tắt Altium.
-   - url: /docs/Altium/Logo.html
-     name: Logo
-   - url: /docs/Altium/SheetSymbol.html
-     name: Sheet Symbol
-   - url: /docs/Altium/AutoVia.html
-     name: Đặt Via tự động.
-   - url: /docs/Altium/PhuXanhVia.html
-     name: Phủ xanh cả Via.
-   - url: /docs/Altium/Teardrops.html
-     name: Teardrops.
-   - url: /docs/Altium/PhuThiec.html
-     name: Phủ Thiếc.
-   - url: /docs/Altium/XoayLinhKien.html
-     name: Xoay Linh Kiện 45 độ.
-   - url: /docs/Altium/Ghep3DPCB.html
-     name: Ghép 3D nhiều PCB.
-   - url: /docs/Altium/design_insight.html
-     name: Design insight.
-   - folder: Highspeed
-     contents:
-      - url: /docs/Altium/Highspeed/X_Signal.html
-        name: X Signal
-      - url: /docs/Altium/Highspeed/EDGE_RATE.html
-        name: EDGE RATE
-      - url: /docs/Altium/Highspeed/LengthMatchingTurning.html
-        name:  Length Matching,Length Turning
-- folder: KiCad
-  contents:
-   - url: /docs/Kicad/Bai1.html
-     name: Bài 1.
-- folder: STM32
-  contents:
-   - url: /docs/STM32/PinVBAT.html
-     name: Dùng chân VBAT.
-   - folder: True Studio
-     contents:
-      - url: /docs/STM32/IDF.html
-        name: Cài Đặt STM32CubeMX.
-   - folder: Arduino
-     contents:
-      - url: /docs/STM32/Arduino_package.html
-        name: Cài Đặt package.
 
-- folder: ESP32
+- folder: PCB
   contents:
-   - folder: IDF
+   - folder: Altium
      contents:
-      - url: /docs/ESP32/IDF.html
-        name: Cài Đặt IDF.
-   - folder: Arduino
+     - url: /docs/Altium/phimtat.html
+       name: Phím tắt Altium.
+     - url: /docs/Altium/Logo.html
+       name: Logo
+     - url: /docs/Altium/SheetSymbol.html
+       name: Sheet Symbol
+     - url: /docs/Altium/AutoVia.html
+       name: Đặt Via tự động.
+     - url: /docs/Altium/PhuXanhVia.html
+       name: Phủ xanh cả Via.
+     - url: /docs/Altium/Teardrops.html
+       name: Teardrops.
+     - url: /docs/Altium/PhuThiec.html
+       name: Phủ Thiếc.
+     - url: /docs/Altium/XoayLinhKien.html
+       name: Xoay Linh Kiện 45 độ.
+     - url: /docs/Altium/Ghep3DPCB.html
+       name: Ghép 3D nhiều PCB.
+     - url: /docs/Altium/design_insight.html
+       name: Design insight.
+     - folder: Highspeed
+       contents:
+         - url: /docs/Altium/Highspeed/X_Signal.html
+           name: X Signal
+         - url: /docs/Altium/Highspeed/EDGE_RATE.html
+           name: EDGE RATE
+         - url: /docs/Altium/Highspeed/LengthMatchingTurning.html
+           name:  Length Matching,Length Turning
+   - folder: KiCad
      contents:
-      - url: /docs/ESP32/Arduino/Arduinopackage.html
-        name: Cài Đặt package.
-      - folder: FreeRTOS
-        contents:
-         - url: /docs/ESP32/Arduino/FreeRTOS/RTOSCreater.html
-           name: Creater.
-         - folder: Task
+     - url: /docs/Kicad/Bai1.html
+       name: Bài 1.
+
+- folder: MCU
+  contents:
+   - folder: STM32
+     contents:
+     - url: /docs/STM32/PinVBAT.html
+       name: Dùng chân VBAT.
+     - folder: True Studio
+       contents:
+         - url: /docs/STM32/IDF.html
+           name: Cài Đặt STM32CubeMX.
+     - folder: Arduino
+       contents:
+         - url: /docs/STM32/Arduino_package.html
+           name: Cài Đặt package.
+
+   - folder: ESP32
+     contents:
+     - folder: IDF
+       contents:
+         - url: /docs/ESP32/IDF.html
+           name: Cài Đặt IDF.
+     - folder: Arduino
+       contents:
+         - url: /docs/ESP32/Arduino/Arduinopackage.html
+           name: Cài Đặt package.
+         - folder: FreeRTOS
            contents:
-            - url: /docs/ESP32/Arduino/FreeRTOS/RTOSTaskParameter.html
-              name: Task Parameter.
-            - url: /docs/ESP32/Arduino/FreeRTOS/RTOSTaskHandle.html
-              name: Task Handle.
-            - url: /docs/ESP32/Arduino/FreeRTOS/RTOSTaskPriorities.html
-              name: Task_Priorities.
-            - url: /docs/ESP32/Arduino/FreeRTOS/RTOSIdleTaskHook.html
-              name: Idle Task Hook.            
-         - url: /docs/ESP32/Arduino/FreeRTOS/RTOSQueue.html
-           name: Queue.
-         - url: /docs/ESP32/Arduino/FreeRTOS/RTOSSemaphore.html
-           name: Semaphore.
-         - url: /docs/ESP32/Arduino/FreeRTOS/RTOSMutex.html
-           name: Mutex.
-         - url: /docs/ESP32/Arduino/GPIO.html
-           name: Counting Semaphore.
-      - url: /docs/ESP32/Arduino/Arduinopackage.html
-        name: Package.
-      - folder: Examples
-        contents:
-         - url: /docs/ESP32/Arduino/examples/1.GPIO/GPIO.html
-           name: 1.GPIO.
-         - url: /docs/ESP32/Arduino/examples/2.UART/UART.html
-           name: 2.UART Interrupt.
-         - url: /docs/ESP32/Arduino/examples/3.ModbusSlaver/ModbusSlaver.html
-           name: 3.Modbus Slaver.             
-- folder: Raspberry
-  contents:
-   - folder: Setting
-     contents:
-      - url: /docs/Raspberry/Autostart.html
-        name: Autostart.
-      - url: /docs/Raspberry/enableSSH.html
-        name: Enable SSH (First Run).
-      - url: /docs/Raspberry/wifiSetting.html
-        name: Wifi Setting.
-      - url: /docs/Raspberry/staticIP.html
-        name: static IP.
-      - url: /docs/Raspberry/Config/LinkUSBPort.html
-        name: Link cổng USB tới ttyUSBx cố định.
-   - folder: Flask
-     contents:
-      - url: /docs/Raspberry/installFlask.html
-        name: Flask - install.
-
-
-   - folder: Labview On Raspberry
-     contents:
-      - url: /docs/Raspberry/LINX/Huongdan.html
-        name: LINX - install.   
-      - url: /docs/Raspberry/LINX/eventStruct.html
-        name: Event Struct.
-      - folder: Shroot
-        contents:      
-         - url: /docs/Raspberry/LINX/ChrootAccessOutside.html
-           name: ChrootAccessOutside.   
-         - url: /docs/Raspberry/LINX/ChrootWithUSBMount.html
-           name: Connect to USB MOUNT
+           - url: /docs/ESP32/Arduino/FreeRTOS/RTOSCreater.html
+             name: Creater.
+           - folder: Task
+             contents:
+               - url: /docs/ESP32/Arduino/FreeRTOS/RTOSTaskParameter.html
+                 name: Task Parameter.
+               - url: /docs/ESP32/Arduino/FreeRTOS/RTOSTaskHandle.html
+                 name: Task Handle.
+               - url: /docs/ESP32/Arduino/FreeRTOS/RTOSTaskPriorities.html
+                 name: Task_Priorities.
+               - url: /docs/ESP32/Arduino/FreeRTOS/RTOSIdleTaskHook.html
+                 name: Idle Task Hook.            
+           - url: /docs/ESP32/Arduino/FreeRTOS/RTOSQueue.html
+             name: Queue.
+           - url: /docs/ESP32/Arduino/FreeRTOS/RTOSSemaphore.html
+             name: Semaphore.
+           - url: /docs/ESP32/Arduino/FreeRTOS/RTOSMutex.html
+             name: Mutex.
+           - url: /docs/ESP32/Arduino/GPIO.html
+             name: Counting Semaphore.
+         - url: /docs/ESP32/Arduino/Arduinopackage.html
+           name: Package.
+         - folder: Examples
+           contents:
+           - url: /docs/ESP32/Arduino/examples/1.GPIO/GPIO.html
+             name: 1.GPIO.
+           - url: /docs/ESP32/Arduino/examples/2.UART/UART.html
+             name: 2.UART Interrupt.
+           - url: /docs/ESP32/Arduino/examples/3.ModbusSlaver/ModbusSlaver.html
+             name: 3.Modbus Slaver.             
 - folder: Python
   contents:
    - folder: Web
@@ -195,6 +169,32 @@
      name: Micro ROS
    - url: /docs/ROS/opensource.html
      name: Những opensource hay
+- folder: Raspberry
+  contents:
+   - folder: Setting
+     contents:
+      - url: /docs/Raspberry/Autostart.html
+        name: Autostart.
+      - url: /docs/Raspberry/enableSSH.html
+        name: Enable SSH (First Run).
+      - url: /docs/Raspberry/wifiSetting.html
+        name: Wifi Setting.
+      - url: /docs/Raspberry/staticIP.html
+        name: static IP.
+      - url: /docs/Raspberry/Config/LinkUSBPort.html
+        name: Link cổng USB tới ttyUSBx cố định.
+   - folder: Labview On Raspberry
+     contents:
+      - url: /docs/Raspberry/LINX/Huongdan.html
+        name: LINX - install.   
+      - url: /docs/Raspberry/LINX/eventStruct.html
+        name: Event Struct.
+      - folder: Shroot
+        contents:      
+         - url: /docs/Raspberry/LINX/ChrootAccessOutside.html
+           name: ChrootAccessOutside.   
+         - url: /docs/Raspberry/LINX/ChrootWithUSBMount.html
+           name: Connect to USB MOUNT
 - folder: Project
   contents:
    - url: /docs/folder2/test2_3.html
