@@ -113,12 +113,7 @@
         name: MQTT Python.
       - url: /docs/Raspberry/Python/threadingProcess.html
         name: Sự khác nhau giữa threading và Process.
-      - folder: Gui
-        contents:
-         - url: /docs/Raspberry/Python/Gui/QT.html
-           name: QT.
-         - url: /docs/Raspberry/Python/Gui/Kivy.html
-           name: Kivy.
+
    - folder: Labview On Raspberry
      contents:
       - url: /docs/Raspberry/LINX/Huongdan.html
@@ -131,6 +126,30 @@
            name: ChrootAccessOutside.   
          - url: /docs/Raspberry/LINX/ChrootWithUSBMount.html
            name: Connect to USB MOUNT
+- folder: Python
+  contents:
+   - folder: Web
+     contents:
+       - url: /docs/python/Web/Flask.html
+         name: Flask.
+       - url: /docs/python/Web/flask_migrate.html
+         name: flask_migrate.
+       - url: /docs/python/Web/flask_sqlalchemy.html
+         name: flask_sqlalchemy.
+   - url: /docs/python/rabbitmq.html
+     name: rabbitmq.
+   - url: /docs/python/nosql.html
+     name: NoSQL.
+   - folder: Gui
+     contents:
+       - url: /docs/python/Gui/Pyqt5.html
+         name: Pyqt5 or Pyside2.
+       - url: /docs/python/Gui/Kivy.html
+         name: Kivy.
+   - folder: Design Pattern
+     contents:   
+       - url: /docs/python/Design_Pattern/singleton.html
+         name: Singleton .      
 - folder: C/C++
   contents:
    - url: /docs/CC++/bit_field.html
