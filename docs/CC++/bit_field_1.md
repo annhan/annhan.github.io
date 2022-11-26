@@ -6,6 +6,7 @@ title:
 # Kết hợp bitfield trong union
 
 Trong lập trình nhúng, nhiều protocol chỉ cần  vài bit trong dữ liệu. Vậy làm thế nào để tách dữ liệu trong 1byte 1 cách nhanh nhất mà không cần code.
+
 Khi đó dựa vào đặt tính của union và bitfield ta có thể tự động nhận dữ liệu theo từng bit của data.
 
 VD: Truyền data có độ dài bằng 8bits. Trong đó  3 bits đầu để chưa ID và 5 bits sau chứa dữ liệu.

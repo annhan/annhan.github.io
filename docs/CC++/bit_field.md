@@ -3,13 +3,18 @@ layout: default
 title: 
 ---
 
-Bit Field là cách biểu diễn các thành phần dữ liệu của struct một cách tối ưu bộ nhớ.
+**Bit Field là cách biểu diễn các thành phần dữ liệu của struct một cách tối ưu bộ nhớ.**
 
-VD:
-Trong struct ta có các biến: ngày, tháng năm
-Vì ngày chỉ có giới hạn 0-31 , tháng từ 1-12 và năm
+# Ví dụ
+
+Trong struct ta có các biến: ngày, tháng năm.
+
+Vì ngày chỉ có giới hạn 0-31 , tháng từ 1-12 và năm.
+
 Nếu ta khai báo struct bình thường choh 3 biến này sẽ chiếm tổng 12bytes.
+
 Ngược lại khi có giới hạn các số ta nên khai báo bit field cho từng biến để giảm số bytes cấp phát trong chương trình.
+
 
 ```c
 #include "stdio.h"
@@ -38,7 +43,7 @@ void main()
 }
 ```
 
-Kết quả:
+# Kết quả:
 
 Size of no bit field struct: 12 (3 biến unsigned int)
 
