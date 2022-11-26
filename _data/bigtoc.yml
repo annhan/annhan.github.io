@@ -195,17 +195,13 @@
            name: ChrootAccessOutside.   
          - url: /docs/Raspberry/LINX/ChrootWithUSBMount.html
            name: Connect to USB MOUNT
-- folder: Project
-  contents:
-   - url: /docs/folder2/test2_3.html
-     name: SIM800C
 - folder: Manual
   contents:
-   - url: /docs/mWork/HMI/HMI19264.html
+   - url: /docs/manuals/HMI/HMI19264.html
      name: HMI 19264
-   - url: /docs/mWork/Daikin/DaikinManual.html
+   - url: /docs/manuals/Daikin/DaikinManual.html
      name: Daikin Manual
-- folder: Share tool 
+- folder: Tool 
   contents:
    - url: /docs/tool/Ipchanger.html
      name: Thay đổi IP trên FPT Router
