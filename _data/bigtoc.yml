@@ -187,12 +187,6 @@
      name: HMI 19264
    - url: /docs/mWork/Daikin/DaikinManual.html
      name: Daikin Manual
-- folder: CV 
-  contents:
-   - url: /docs/CV/Appdown.html
-     name: DownApp
-   - url: /docs/CV/20199.html
-     name: CV
 - folder: Share tool 
   contents:
    - url: /docs/tool/Ipchanger.html
