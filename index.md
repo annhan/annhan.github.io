@@ -5,5 +5,5 @@ title: Welcome
 
 
 
-Tổng hợp các hướng dẫn cho dân điện tử : Schematic, PCB, C/C++ , STM32, ESP32 ...  
+Tổng hợp các các kiến thức lượm lặt từ internet. Lưu trữ để giúp việc tìm kiếm sau này  
 Hướng dẫn chỉ làm sơ bộ.
