@@ -105,14 +105,7 @@
      contents:
       - url: /docs/Raspberry/installFlask.html
         name: Flask - install.
-   - folder: Python
-     contents:
-      - url: /docs/Raspberry/Python/Bai1.html
-        name: Bài1.     
-      - url: /docs/Raspberry/Python/MQTT.html
-        name: MQTT Python.
-      - url: /docs/Raspberry/Python/threadingProcess.html
-        name: Sự khác nhau giữa threading và Process.
+
 
    - folder: Labview On Raspberry
      contents:
@@ -149,7 +142,13 @@
    - folder: Design Pattern
      contents:   
        - url: /docs/python/Design_Pattern/singleton.html
-         name: Singleton .      
+         name: Singleton.
+   - url: /docs/python/Bai1.html
+     name: Bài1.     
+   - url: /docs/python/mqtt.html
+     name: MQTT Python.
+   - url: /docs/python/threadingProcess.html
+     name: Sự khác nhau giữa threading và Process.      
 - folder: C/C++
   contents:
    - url: /docs/CC++/bit_field.html
