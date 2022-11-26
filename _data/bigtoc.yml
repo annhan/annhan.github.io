@@ -173,6 +173,10 @@
   contents:
    - url: /docs/ROS/ArduinoNode/Bai1.html
      name: Bài 1. Thư viện arduino 
+   - url: /docs/ROS/micro_ros.html
+     name: Micro ROS
+   - url: /docs/ROS/opensource.html
+     name: Những opensource hay
 - folder: Project
   contents:
    - url: /docs/folder2/test2_3.html
