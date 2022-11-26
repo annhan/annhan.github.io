@@ -133,6 +133,10 @@
            name: Connect to USB MOUNT
 - folder: C/C++
   contents:
+   - url: /docs/CC++/bit_field.html
+     name: Bit Field.
+   - url: /docs/CC++/bit_field_1.html
+     name: Kết hợp Bit Field và union.
    - folder: C++
      contents:
       - url: /docs/CC++/stackHeap.html
@@ -143,10 +147,6 @@
         name: Struct.
       - url: /docs/CC++/Enum.html
         name: Enum.
-      - url: /docs/CC++/bit_field.html
-        name: Bit Field.
-      - url: /docs/CC++/bit_field_1.html
-        name: Kết hợp Bit Field với struct và union.
       - url: /docs/CC++/Type-casting.html
         name: Type-casting.    
       - url: /docs/CC++/storage-classes.html
