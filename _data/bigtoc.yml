@@ -119,6 +119,12 @@
          name: Singleton.
        - url: /docs/python/Design_Pattern/state_machine.html
          name: State machines.
+       - url: /docs/python/Design_Pattern/factory.html
+         name: Factory Method.
+       - url: /docs/python/Design_Pattern/abstract.html
+         name: Abstract Factory Method.
+       - url: /docs/python/Design_Pattern/decorators.html
+         name: Decorators .
    - url: /docs/python/Bai1.html
      name: Bài1.     
    - url: /docs/python/mqtt.html
