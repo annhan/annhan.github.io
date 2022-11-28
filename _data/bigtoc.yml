@@ -117,6 +117,8 @@
      contents:   
        - url: /docs/python/Design_Pattern/singleton.html
          name: Singleton.
+       - url: /docs/python/Design_Pattern/state_machine.html
+         name: State machines.
    - url: /docs/python/Bai1.html
      name: Bài1.     
    - url: /docs/python/mqtt.html
