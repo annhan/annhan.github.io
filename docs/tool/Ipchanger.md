@@ -10,12 +10,12 @@ title:
 I. Open file check.exe
 
 II. Nếu lần đầu sử dụng thì vào settings điền user và password của router vào phần 1.
-<img src="/docs/tool/pics/toolchanger.png" alt="Flowers in Chania" > 
+<img src="/docs/tool/pics/toolchanger.png" width="500" height="400" alt="Flowers in Chania" > 
 
 
 III. Tính năng.
 
-<img src="/docs/tool/pics/toolchanger.png" alt="Flowers in Chania" > 
+<img src="/docs/tool/pics/toolchanger.png" width="500" height="400" alt="Flowers in Chania" > 
 
 1. Trạng thái
 
