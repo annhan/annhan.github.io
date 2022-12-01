@@ -7,7 +7,7 @@ title:
 - Để xoay linh kiện một góc bất kì ta chỉnh trong Tool ->Preferences và chỉnh góc xoay trong phần Rotation Step
 ```
 <br>  
-<img src="/docs/Picture/Altium/Xoay45.png" alt="Flowers in Chania" > 
+<img src="/docs/Picture/Altium/Xoay45.png" width="500" height="400" alt="Flowers in Chania" > 
 
 <br>  
 <br>  
@@ -17,7 +17,7 @@ title:
 - Mirrored linh kiện trong SCH để dễ vẽ.
 ```
 <br>  
-<img src="/docs/Picture/Altium/Mirrored.png" alt="Flowers in Chania" > 
+<img src="/docs/Picture/Altium/Mirrored.png" width="500" height="400" alt="Flowers in Chania" > 
 
 
 
